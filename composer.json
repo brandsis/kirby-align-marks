@@ -1,8 +1,8 @@
 {
 	"name": "brandsistency/align-marks",
-	"description": "Center and right text alignment buttons for the Writer field",
+	"description": "Center and right text alignment marks for the Writer field",
 	"type": "kirby-plugin",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "MIT",
 	"authors": [
 			{
