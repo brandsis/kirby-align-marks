@@ -73,7 +73,7 @@ If you want to change the names of the custom classes, edit the stylesheets, as 
 
 ## Disclaimer
 
-This plugin is provided "as is" and with no guarantee. You use it at your own risk. Always test it before using it in a production environment.If you find any issues, please [create a new issue](https://github.com/brandsis/kirby-align-marks/issues/new).
+This plugin is provided "as is" and with no guarantee. You use it at your own risk. Always test it before using it in a production environment. If you find any issues, please [create a new issue](https://github.com/brandsis/kirby-align-marks/issues/new).
 
 ## License
 
