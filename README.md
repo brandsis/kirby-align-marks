@@ -47,7 +47,7 @@ To style the class in the front-end, add this code to your main CSS file...
     }
 
     *:has(> *[class*="txt-r"]) {
-      text-align: center;
+      text-align: right;
     }
 ```
 
