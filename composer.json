@@ -6,9 +6,9 @@
 	"license": "MIT",
 	"homepage": "https://github.com/brandsis/kirby-align-marks",
 	"authors": [
-			{
-					"name": "Brandsistency",
-					"email": "support@brandsistency.dev"
-			}
+		{
+			"name": "Brandsistency",
+			"email": "support@brandsistency.dev"
+		}
 	]
 }
