@@ -4,7 +4,7 @@ panel.plugin("brandsistency/align-marks", {
 			get button() {
 				return {
 					icon: "text-center",
-					label: window.panel.$t("center")
+					label: "Centre"
 				}
 			},
 
@@ -34,7 +34,7 @@ panel.plugin("brandsistency/align-marks", {
 			get button() {
 				return {
 					icon: "text-right",
-					label: window.panel.$t("right")
+					label: "Align right"
 				}
 			},
 
