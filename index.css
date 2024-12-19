@@ -1,0 +1,6 @@
+*:has(> *[class*="txt-c"]) {
+	text-align: center;
+}
+*:has(> *[class*="txt-r"]) {
+	text-align: right;
+}
