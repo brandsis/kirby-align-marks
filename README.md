@@ -39,7 +39,7 @@ The plugin is intended for use with the Writer field when used inside text block
 
 When the text-center or text-right alignment mark is clicked, the selected content is wrapped in a `<span>` with a custom class &nbsp; `txt-c` or `txt-r` respectively &nbsp; inside the block-level `<p>` or `<hX>` element. The class is added both in the Panel and in the front-end. The marks act as toggles, so clicking again will remove the `<span>`.
 
-To style the class in the front-end, add this code to your main CSS file...
+The `txt-c` and `txt-r` classes are already included in the plugin's CSS file at `/site/plugins/align-marks/index.css` to align the button in the Panel preview. To style the class in the front-end, add this code to your main CSS file...
 
 ```
     *:has(> *[class*="txt-c"]) {
@@ -49,18 +49,6 @@ To style the class in the front-end, add this code to your main CSS file...
     *:has(> *[class*="txt-r"]) {
       text-align: right;
     }
-```
-
-If you want content to appear centred or right-aligned in the Panel preview, add this code to an `/assets/panel.css` file...
-
-```
-    .k-writer .ProseMirror *:has(> span[class*="txt-c"]) {
-      text-align: center;
-    }
-
-    .k-writer .ProseMirror *:has(> span[class*="txt-r"]) {
-      text-align: right;
-      }
 ```
 
 If you want to change the names of the custom classes, edit the stylesheets, as above, and the relevant code in `index.js`.

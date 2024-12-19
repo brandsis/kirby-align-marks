@@ -2,7 +2,7 @@
 	"name": "brandsistency/align-marks",
 	"description": "Center and right text alignment marks for the Writer field",
 	"type": "kirby-plugin",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"license": "MIT",
 	"homepage": "https://github.com/brandsis/kirby-align-marks",
 	"authors": [

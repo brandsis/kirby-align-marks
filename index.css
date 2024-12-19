@@ -1,6 +1,6 @@
-*:has(> *[class*="txt-c"]) {
+.k-writer .ProseMirror *:has(> *[class*="txt-c"]) {
 	text-align: center;
 }
-*:has(> *[class*="txt-r"]) {
+.k-writer .ProseMirror *:has(> *[class*="txt-r"]) {
 	text-align: right;
 }
